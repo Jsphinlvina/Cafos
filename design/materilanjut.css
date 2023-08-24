@@ -1,0 +1,253 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/bg21.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+h1 {
+   font-family: 'Cinzel Decorative';
+   padding: 50px;
+   color: white;
+   font-size: 50px;
+}
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush', cursive;
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+button {
+   font-family: 'Comic Sans Ms';
+   width: 90px;
+   height: 40px;
+   background-color: #405840;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   margin-left: 20px;
+   position: absolute;
+}
+
+button::after,
+button::before {
+   content: '';
+   position: absolute;
+   opacity: 0.3;
+   background: #405840;
+   border-radius: inherit;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   bottom: 0;
+   z-index: -1;
+   transition: transform 0.3s ease;
+}
+
+button:hover {
+   transform: translate(-12px, -12px);
+}
+
+button:hover::after {
+   transform: translate(6px, 6px);
+}
+
+button:hover::before {
+   transform: translate(12px, 12px);
+}
+
+button a {
+   color: white;
+   text-decoration: none;
+}
+
+img {
+   border-radius: 20px;
+}
+
+.container {
+   margin-left: 50px;
+   position: absolute;
+}
+
+.fotolink {
+   margin-left: 200px;
+   margin-top: 50px;
+}
+
+.materi4 {
+   width: 350px;
+   height: 115px;
+   margin-top: -117px;
+   margin-left: 630px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan4 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 4%;
+}
+
+.fotoimage {
+   margin-left: 630px;
+   margin-top: -750px;
+}
+
+.materi5 {
+   margin-left: 200px;
+   margin-top: 50px;
+   width: 350px;
+   height: 140px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan5 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 5%;
+}
+
+.materi6 {
+   width: 350px;
+   height: 92px;
+   margin-top: -95px;
+   margin-left: 630px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan6 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 5%;
+}
+
+.fotoiframe {
+   margin-left: 200px;
+   margin-top: 50px;
+}
+
+.materi7 {
+   width: 350px;
+   height: 125px;
+   margin-top: 100px;
+   margin-bottom: -50px;
+   margin-left: 200px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan7 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 5%;
+}
+
+.fotool {
+   margin-left: 630px;
+   margin-top: -90px;
+}
+
+.fotoul {
+   margin-left: 200px;
+   margin-top: -110px;
+   margin-bottom: -40px;
+}
+
+.materi8 {
+   width: 350px;
+   height: 110px;
+   margin-top: 40px;
+   margin-left: 630px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan8 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 5%;
+}
+
+.materi9 {
+   width: 350px;
+   height: 140px;
+   margin-top: 100px;
+   margin-left: 200px;
+   margin-bottom: 50px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.fototable {
+   margin-left: 630px;
+   margin-top: -190px;
+}
+
+.tulisan9 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 80%;
+   padding: 5%;
+}

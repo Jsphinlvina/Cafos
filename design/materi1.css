@@ -1,0 +1,125 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/bg2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+/* navigasi */
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush', cursive;
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+/* judul */
+
+.jdl {
+   text-align: center;
+   margin-top: 50px;
+   color: #fff;
+   font-family: 'Cinzel Decorative';
+   font-size: 50px;
+}
+
+/* back */
+.back {
+   margin-top: 200px;
+}
+
+/* kotak */
+
+.kotak1 {
+   margin-top: 50px;
+   margin-left: 400px;
+   width: 500px;
+   height: 100px;
+   background-color: #768d70;
+   position: relative;
+   padding-top: 25px;
+   border-radius: 20px;
+   transition: all 1s;
+}
+
+.kotak2 {
+   margin-top: 70px;
+   margin-left: 400px;
+   width: 500px;
+   height: 100px;
+   background-color: #768d70;
+   padding-top: 25px;
+   border-radius: 20px;
+   transition: all 1s;
+}
+
+.kotak1:hover {
+   transform: translateY(-15px);
+   background-color: #5c8751;
+   box-shadow: 0px 5px 10px #213e27;
+}
+
+.kotak2:hover {
+   transform: translateY(-15px);
+   background-color: #5c8751;
+   box-shadow: 0px 5px 10px #213e27;
+}
+
+/* tulisan */
+
+.kotak1 a {
+   color: white;
+   font-size: 35px;
+   font-family: 'Comic Sans MS';
+   text-decoration: none;
+}
+
+.kotak2 a {
+   color: white;
+   font-size: 35px;
+   font-family: 'Comic Sans MS';
+   text-decoration: none;
+}
+
+.dasar {
+   padding-top: 10px;
+}
+
+.lanjut {
+   padding-top: 10px;
+}

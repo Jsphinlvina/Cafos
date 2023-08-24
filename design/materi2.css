@@ -1,0 +1,213 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.bg2 {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/bg21.png);
+   /* https://id.pinterest.com/ */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+/* navigasi */
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush';
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+/* judul */
+
+.jdl {
+   text-align: center;
+   color: #fff;
+   margin-top: 50px;
+   font-family: 'Cinzel Decorative';
+   font-size: 50px;
+}
+
+/* design */
+
+.dsn {
+   color: #fff;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+/* kotak */
+
+.kotak {
+   width: 500px;
+   height: 275px;
+   color: #fff;
+   background-color: #405840;
+}
+
+.kotak1 {
+   width: 525px;
+   height: 325px;
+   padding: 20px;
+}
+
+.kotak2 {
+   width: 600px;
+   height: 175px;
+   padding: 50px 20px;
+}
+
+.kotak3 {
+   width: 600px;
+   height: 150px;
+   padding: 50px 20px;
+}
+
+.kotak4 {
+   width: 950px;
+   height: 425px;
+   padding: 60px 40px;
+}
+
+.kotak4 ul {
+   padding: 0px 20px;
+}
+
+.kotak5 {
+   width: 400px;
+   height: 900px;
+   padding: 60px 40px;
+}
+
+.kotak5 ul {
+   padding: 0px 20px;
+}
+
+.kotak6 {
+   width: 400px;
+   height: 275px;
+   padding: 60px 40px;
+}
+
+.kotak6 ul {
+   padding: 0px 20px;
+}
+
+.kotak7 {
+   width: 400px;
+   height: 550px;
+   padding: 60px 40px;
+}
+
+.kotak7 ul {
+   padding: 0px 20px;
+}
+
+.kotak8 {
+   width: 950px;
+   height: 400px;
+   padding: 60px 40px;
+}
+
+.kotak8 ul {
+   padding: 0px 20px;
+}
+
+.fnsh {
+   height: 25px;
+}
+
+/* posisi */
+
+.pss {
+   margin-left: 150px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   position: relative;
+}
+
+.psskotak {
+   margin-left: 650px;
+   margin-top: -177px;
+   position: absolute;
+}
+
+.psskotak1 {
+   margin-left: 450px;
+   margin-top: -200px;
+   position: absolute;
+}
+
+.psskotak2 {
+   margin-left: 360px;
+   margin-top: -240px;
+   position: absolute;
+}
+
+.psskotak3 {
+   margin-left: 650px;
+   margin-top: -150px;
+   position: absolute;
+}
+
+.psskotak4 {
+   margin: -900px 550px;
+   position: absolute;
+}
+
+.psskotak5 {
+   margin: -650px 700px;
+   position: absolute;
+}
+
+/* materi */
+
+.materi1 {
+   color: #fff;
+   font-family: 'comic sans ms';
+   line-height: 30px;
+   font-size: 15px;
+}
+
+.mtr {
+   margin-top: -25px;
+}
+
+/* foto */
+
+img {
+   border-radius: 20px;
+}

@@ -1,0 +1,189 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   overflow: hidden;
+}
+
+.bg2 {
+   background-image: url(../img/bg1.png);
+   /* https://id.pinterest.com/ */
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+/* navigasi */
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush', cursive;
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+/* border */
+
+.lingkaran {
+   width: 200px;
+   height: 200px;
+   background-color: #4a6157;
+   border-radius: 100%;
+   overflow: hidden;
+}
+
+.lingkaran2 {
+   width: 170px;
+   height: 170px;
+   background-color: #4a6157;
+   border-radius: 100%;
+   overflow: hidden;
+}
+
+.lingkaran3 {
+   width: 170px;
+   height: 170px;
+   background-color: #ede3da;
+   border-radius: 100%;
+   overflow: hidden;
+}
+
+.posisi1 {
+   position: absolute;
+   top: 22%;
+   left: 19%;
+}
+
+.posisi1a {
+   position: absolute;
+   top: 8%;
+   left: 7%;
+}
+
+.posisi2 {
+   position: absolute;
+   top: 60%;
+   left: 69%;
+}
+
+.posisi2a {
+   position: absolute;
+   top: 8%;
+   left: 7%;
+}
+
+/* keterangan */
+
+.nama1 {
+   color: #4e4e4e;
+   margin-top: 10%;
+   margin-left: 350px;
+   font-size: 30px;
+   font-family: Lobster;
+}
+
+.grs1 {
+   width: 500px;
+   border: 10px solid #4a6157;
+   border-radius: 10px;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+
+.nama2 {
+   color: #d1d1d1;
+   margin-top: 8%;
+   margin-left: 150px;
+   font-size: 30px;
+   font-family: Lobster;
+}
+
+.grs2 {
+   width: 550px;
+   border: 10px solid #4a6157;
+   border-radius: 10px;
+   margin-top: 15px;
+}
+
+/* foto profil */
+
+.foto1 {
+   margin-top: -20px;
+   margin-left: -12px;
+}
+
+.foto2 {
+   margin-top: -20px;
+   margin-left: 10px;
+}
+
+/* animasi */
+
+@keyframes slide1 {
+   from {
+      opacity: 0%;
+      margin-left: 0px;
+   }
+   to {
+      opacity: 100%;
+      margin-left: 140px;
+   }
+}
+
+@keyframes slide2 {
+   from {
+      opacity: 0%;
+      margin-left: 300px;
+   }
+   to {
+      opacity: 100%;
+      margin-left: 140px;
+   }
+}
+
+.sld1 {
+   animation: slide1;
+   animation-duration: 1s;
+   width: 1000px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.sld2 {
+   animation: slide2;
+   animation-duration: 1s;
+   width: 1000px;
+   margin: 0 auto;
+   overflow: hidden;
+}

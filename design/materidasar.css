@@ -1,0 +1,182 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/bg21.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+h1 {
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Cinzel Decorative';
+   padding: 5px;
+   color: white;
+   margin-top: 50px;
+   align-items: center;
+   font-size: 50px;
+}
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush', cursive;
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+button {
+   font-family: 'Comic Sans Ms';
+   width: 90px;
+   height: 40px;
+   background-color: #405840;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   margin-left: 20px;
+   position: absolute;
+}
+
+button::after,
+button::before {
+   content: '';
+   position: absolute;
+   opacity: 0.3;
+   background: #405840;
+   border-radius: inherit;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   bottom: 0;
+   z-index: -1;
+   transition: transform 0.3s ease;
+}
+
+button:hover {
+   transform: translate(-12px, -12px);
+}
+
+button:hover::after {
+   transform: translate(6px, 6px);
+}
+
+button:hover::before {
+   transform: translate(12px, 12px);
+}
+
+button a {
+   color: white;
+   text-decoration: none;
+}
+
+img {
+   border-radius: 20px;
+}
+
+.container {
+   position: absolute;
+}
+
+.strukturdasar {
+   margin-left: 200px;
+   margin-top: 50px;
+}
+
+.materi1 {
+   width: 500px;
+   height: 245px;
+   margin-top: -219px;
+   margin-left: 400px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.fotoheading {
+   margin-left: 750px;
+   margin-top: -750px;
+}
+
+.materi2 {
+   margin-left: 200px;
+   margin-top: 50px;
+   width: 500px;
+   height: 186px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.paragraph {
+   margin-left: 200px;
+   margin-top: 50px;
+}
+
+.materi3 {
+   width: 500px;
+   height: 125px;
+   margin-top: -130px;
+   margin-left: 400px;
+   background-color: #405840;
+   border-radius: 20px;
+}
+
+.tulisan1 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   font-size: 75%;
+   padding: 5px;
+}
+
+.tulisan2 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   padding: 35px;
+}
+
+.tulisan3 {
+   font-family: 'Comic Sans Ms';
+   color: white;
+   justify-content: center;
+   text-align: center;
+   padding: 30px;
+}

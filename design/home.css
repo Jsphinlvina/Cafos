@@ -1,0 +1,162 @@
+/* CAFOS */
+/* 2272029-Josephine Alvina Luwia */
+/* 2272031-Jessica Anne Harlow */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   overflow: hidden;
+}
+
+.bg1 {
+   background-image: url(../img/bg1.png);
+   /* https://id.pinterest.com/ */
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+/* navigasi */
+
+nav {
+   display: flex;
+   background-color: #313f40;
+   justify-content: space-around;
+   color: white;
+   height: 60px;
+   align-items: center;
+}
+
+nav .logo {
+   font-family: 'Comforter Brush';
+   font-size: 35px;
+   letter-spacing: 3px;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: end;
+}
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+nav ul li a {
+   color: white;
+   letter-spacing: 3px;
+   text-decoration: none;
+}
+
+/* kotak */
+
+.kotak {
+   width: 250px;
+   height: 400px;
+   background-color: #4a6157;
+   border-radius: 10%;
+   transition: transform 1s;
+}
+
+.kotak:hover {
+   transform: scale(1.1);
+}
+
+/* posisi kotak */
+
+.posisi1 {
+   position: absolute;
+   top: 22%;
+   left: 25%;
+}
+
+.posisi2 {
+   position: absolute;
+   top: 22%;
+   left: 55%;
+}
+
+/* logo */
+
+.foto1 {
+   width: 450px;
+   margin-left: -105px;
+   margin-bottom: -150px;
+}
+
+.foto2 {
+   width: 340px;
+   margin-top: 35px;
+   margin-left: -40px;
+   margin-bottom: -100px;
+}
+
+/* penjelasan */
+
+.content {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   opacity: 0;
+   transition: 0.5s ease;
+   border-radius: 10%;
+   background-color: #828067;
+}
+
+.content:hover {
+   opacity: 1;
+}
+
+.content h1 {
+   color: #fff;
+   margin-top: 70px;
+   padding: 20px;
+   font-family: Yuji Mai;
+}
+
+.content p {
+   color: #fff;
+   line-height: 25px;
+   font-family: 'El Messiri';
+   padding: 10px;
+}
+
+/* animasi */
+
+@keyframes fadeIn {
+   from {
+      opacity: 0%;
+      top: 50%;
+   }
+   to {
+      opacity: 100%;
+      top: 22%;
+   }
+}
+@keyframes fadeIn2 {
+   from {
+      opacity: 0%;
+      top: 60%;
+   }
+   to {
+      opacity: 100%;
+      top: 22%;
+   }
+}
+
+.trans1 {
+   animation: fadeIn;
+   animation-duration: 1s;
+}
+.trans2 {
+   animation: fadeIn2;
+   animation-duration: 1.5s;
+}
