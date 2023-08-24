@@ -1,0 +1,225 @@
+<!-- CAFOS -->
+<!-- 2272029-Josephine Alvina Luwia -->
+<!-- 2272031-Jessica Anne Harlow -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="design/materi2.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+   <title>CAFOS | CSS</title>
+</head>
+
+<body class="bg2">
+   <nav>
+      <div class="logo">
+         <!-- https://fonts.google.com/ -->
+         <h4>Cafos</h4>
+      </div>
+      <ul>
+         <li><a href="home.html">Home</a></li>
+         <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+   </nav>
+   <h1 class="jdl">CSS</h1><br><br>
+
+   <!-- Semua materi diambil dari morning -->
+   <!-- materi 1 -->
+   <div class="pss">
+      <img src="img/stru.png" width="400px">
+      <!-- https://carbon.now.sh/ -->
+      <div class="kotak1 dsn psskotak1">
+         <div class="materi1">
+            <h2>Struktur CSS</h3> <br>
+               h1 ➜ Selektor <br>
+               <p> Selektor adalah kata kunci untuk memilih elemen HTML yang akan kita beri style. </p> <br>
+               {color: green; font-size:40px;} ➜ Deklarasi<br>
+               <p> Deklarasi adalah tempat kita menuliskan atribut atau properti CSS yang akan diberikan kepada
+                  elemen
+                  yang
+                  telah diseleksi.</p>
+         </div>
+      </div>
+   </div>
+   <br>
+
+   <!-- materi 2 -->
+   <div class="pss">
+      <div class="kotak2 dsn">
+         <div class="materi1 mtr">
+            <h2>(#) ID</h2><br>
+            <p>Selector Id digunakan untuk memilih elemen tertentu. Id
+               tidak boleh diawali oleh angka dan hanya dapat digunakan sekali</p>
+         </div>
+      </div>
+      <img src="img/id.png" width="300px" class="psskotak">
+      <!-- https://carbon.now.sh/ -->
+   </div>
+
+   <!-- materi 3 -->
+   <div class="pss">
+      <img src="img/class.png" width="300px">
+      <!-- https://carbon.now.sh/ -->
+      <div class="kotak2 dsn psskotak2">
+         <div class="materi1 mtr">
+            <h2>(.) Class</h2><br>
+            <p>Digunakan untuk memilih elemen dengan kelas tertentu. Kita dapat menentukan elemen HTML tertentu yang
+               harus
+               terpengaruh oleh suatu kelas. </p>
+         </div>
+      </div>
+   </div>
+
+   <!-- materi 4 -->
+   <div class="pss">
+      <div class="kotak3 dsn">
+         <div class="materi1 mtr">
+            <h2>(*) Universal</h2><br>
+            <p>Digunakan untuk memilih semua elemen HTML pada halaman </p>
+         </div>
+      </div>
+      <img src="img/universal.png" width="300px" class="psskotak3">
+      <!-- https://carbon.now.sh/ -->
+   </div> <br>
+
+   <!-- materi 5 -->
+   <div class="pss">
+      <img src="img/komentar.png" width="300px">
+      <!-- https://carbon.now.sh/ -->
+      <div class="kotak2 dsn psskotak2">
+         <div class="materi1 mtr">
+            <h2>Komentar</h2><br>
+            <p>Komentar CSS ditempatkan di dalam &lt;style&gt; elemen, dan dimulai dengan /* dan diakhiri dengan */</p>
+         </div>
+      </div>
+   </div>
+
+   <!-- materi 6 -->
+   <div class="pss">
+      <div class="kotak4 dsn">
+         <div class="materi1 mtr">
+            <h1>3 Cara menyisipkan style sheet</h1><br>
+            <ul>
+               <li>External style sheet
+                  <ul>
+                     <li>Simpan dengan ekstensi .css</li>
+                     <li>Tidak boleh ada tag HMTL apapun</li>
+                     <li>Tulis didalam &lt;head&gt; sintaks: &lt;link rel = "stylesheet" href = "style.css"&gt;</li>
+                  </ul>
+               </li><br>
+               <li>Internal style sheet
+                  <ul>
+                     <li>Ditulis didalam &lt;head&gt;</li>
+                  </ul>
+               </li><br>
+               <li>Inline style
+                  <ul>
+                     <li>Menerapkan style unik untuk satu elemen HTML.</li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <!-- material 7 -->
+   <div class="pss">
+      <div class="kotak5 dsn">
+         <div class="materi1 mtr">
+            <h1>CSS Background</h1><br>
+            <ul>
+               <li>Background properties
+                  <ul>
+                     <li>background-color</li>
+                     <li>background-image</li>
+                     <li>background-repeat</li>
+                     <li>background-attachment</li>
+                     <li>background-position</li>
+                     <li>background (shorthand property)</li>
+                  </ul>
+               </li>
+            </ul> <br><br>
+            <h2>CSS Background Shorthand Property</h2><br>
+            <p><b>Dari:</b></p><br>
+            body {<br>
+            background-color : #ffffff <br>
+            background-image : url ("house.png"); <br>
+            background-repeat : no-repeat; <br>
+            background-position : right top; <br>
+            }<br><br>
+            <p><b>Menjadi:</b></p><br>
+            body { <br>
+            background: #ffffff url("house.pgn") no-repeat right top;
+            }
+         </div>
+      </div>
+      <div class="kotak6 dsn psskotak4">
+         <div class="materi1 mtr">
+            <h1>CSS Border</h1><br>
+            <ul>
+               <li>Border properties </li>
+               <ul>
+                  <li>border-width</li>
+                  <li>border-styke (required)</li>
+                  <li>border-color</li>
+                  <li>border-collapse:collapse</li>
+               </ul>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <!-- materi 8 -->
+   <div class="kotak7 dsn psskotak5">
+      <div class="materi1 mtr">
+         <h1>CSS Margin</h1><br>
+         <ul>
+            <li>Margin properties:
+               <ul>
+                  <li>margin-top</li>
+                  <li>margin-right</li>
+                  <li>margin-bottom</li>
+                  <li>margin-left</li>
+               </ul>
+            </li>
+         </ul><br><br>
+         <h2>CSS Margin Collapse</h2><br>
+         h1 { <br>
+         margin: 10px 20px 30px 40px <br>
+         } <br><br>
+         Top, Right, Bottom, Left
+      </div>
+   </div>
+
+   <!-- materi 9 -->
+   <div class="pss">
+      <div class="kotak8 dsn">
+         <div class="materi1 mtr">
+            <h1>CSS Height and Width</h1><br>
+            Height adalah tinggi <br>
+            Width adalah lebar <br><br>
+            <ul>
+               <li>Properties <ul>
+                     <li>max-height : Sets the maximum height of an element</li>
+                     <li>max-width : Sets maximum width of an element</li>
+                     <li>min-height : Sets the minimum height of an element</li>
+                     <li>min-width : Sets the minimum width of an element</li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <div class="fnsh"></div>
+
+
+</body>
+
+</html>
